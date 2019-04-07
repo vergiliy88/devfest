@@ -1,8 +1,8 @@
-package com.example.devfest;
+package com.example.devfest.DomailLayer.Response;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Speaker {
+public class SpeakerResponse {
     @SerializedName("speaker_name")
     private String speakerName;
 
@@ -19,7 +19,7 @@ public class Speaker {
     private String info;
 
     @SerializedName("lecture_info")
-    private Lecture lecture;
+    private LectureResponse lecture;
 
     public String getSpeakerName() {
         return speakerName;
@@ -61,11 +61,11 @@ public class Speaker {
         this.info = info;
     }
 
-    public Lecture getLecture() {
+    public LectureResponse getLecture() {
         return lecture;
     }
 
-    public void setLecture(Lecture lecture) {
+    public void setLecture(LectureResponse lecture) {
         this.lecture = lecture;
     }
 }

@@ -19,4 +19,5 @@ allprojects {
     }
 }
 
+apply plugin: 'java'
 apply plugin: 'me.tatarka.retrolambda'

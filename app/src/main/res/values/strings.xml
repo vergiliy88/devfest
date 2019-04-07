@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DevFest</string>
+
+    <string name="text_view_tag">Android</string>
+    <string name="text_view_room">Room 1</string>
+    <string name="date">27 November</string>
 </resources>

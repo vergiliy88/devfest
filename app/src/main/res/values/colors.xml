@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#FF5629D8</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="text_color">#FF05FFD9</color>
+
+    <color name="circle_image_border">#FF000000</color>
+    <color name="speaker_name_color">#FF05FFD9</color>
+    <color name="text_color_detail">#FFEF56A3</color>
+    <!--<color name="text_color">#FFEF56A3</color>-->
 </resources>

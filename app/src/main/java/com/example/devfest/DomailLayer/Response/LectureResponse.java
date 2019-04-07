@@ -1,8 +1,8 @@
-package com.example.devfest;
+package com.example.devfest.DomailLayer.Response;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Lecture {
+public class LectureResponse {
 
     @SerializedName("theme")
     private String theme;
